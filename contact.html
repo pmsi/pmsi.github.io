@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <Link  rel = "icône de raccourci"  href = "logo/favicon.ico"  type = "image / x-icon" > 
+    <link  rel = "icon"  href = "logo/favicon.ico"  type = "image / x-icon" >
+    <title>Accueil PMSIpilot</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:700' rel='stylesheet' type='text/css'>
+     <link rel="stylesheet" href="jquery-ui-1.8.12.custom.css" type="text/css" />
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script> 
+    <link rel="stylesheet" type="text/css" href="js/jquery.jscrollpane.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="js/jquery.pageslide.css" />
+
+
+<script>jQuery("document").ready(function($){
+    
+    var nav = $('#nav');
+    
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 136) {
+            nav.addClass("f-nav");
+        } else {
+            nav.removeClass("f-nav");
+        }
+    });
+ 
+});</script>
+</head>
+<body>
+    <div class="header">
+        <div class="menu-right">
+            
+            <div id="user"></div>
+            </div>
+        
+        <div class="menu">
+            <img id="logo" src="logo/PMSipilot2.png" alt="PMSIpilot">
+            <div id="info">
+                <div class="google"><a href=""></a></div>
+                <div class="in"><a href=""></a></div>
+                <div class="youtube"><a href=""></a></div>
+                <div class="vimeo"><a href=""></a></div>
+                <div class="mail"><a href=""></a></div>
+                <div class="phone"><a href=""></a></div>
+            </div>
+        </div>
+    <div class="clearfix"></div>
+<div id="content" class="catégorie">
+    <a class="open" href="#nav">Menu</a>
+        <ul id="nav">
+ <div id="search">
+        <img src="icone/loupe.png" alt="">
+        <input type="text" placeholder="Rechercher">
+        <label for="text"></label>
+    </div>
+             <li><a href="index.html">Accueil</a></li>
+            <li><a href="presentation.html">Présentation</a></li>
+            <li><a href="produits.html">Produits</a></li>
+            <li><a href="actualites.html">Actualités</a></li>
+            <li><a href="utilisateur_connexion.html">Espace Utilisateur</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+    </div>
+    <script src="js/jquery-1.7.1.min.js"></script>
+    <script src="js/jquery.pageslide.min.js"></script>
+    <script>
+        $(".open").pageslide();
+    </script>
+</div>
+    
+<div class="clearfix"></div>
+
+<!-- Formulaire -->
+<div class="form">
+	<form id="myform" class="cssform" action="">
+		<p><label for="user">Nom :</label><input id="input" type="text" id="user" value="" /></p>
+		<p><label for="user">Prènom :</label><input id="input" type="text" id="user" value="" /></p>
+        <p><label for="user">Établissement :</label><input id="input" type="text" id="user" value="" /></p>
+        <p><label for="user">Fonction</label><input id="input" type="text" id="user" value="" /></p>
+        <p><label for="user">Téléphone</label><input id="input" type="text" id="user" value="" /></p>
+		<p><label for="emailaddress">Email :</label><input id="input" type="text" id="emailaddress" value="" /></p>
+		<p><label for="comments">Message :</label><textarea id="comments" rows="5" cols="25"></textarea></p>
+		
+		<div style="margin-left: 90px;">
+			<p><input type="submit" value="Envoyer" /></p>
+		</div>
+	</form>
+</div>
+<div class="map-container">
+	<div id="map">
+            <p>Veuillez patienter pendant le chargement de la carte...</p>
+        </div>
+</div>
+<div class="clear"></div>
+
+<!-- Include Javascript -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+    <script type="text/javascript" src="js/functions.js"></script>
+
+<!-- Include Javascript -->
+<div class="clearfix"></div>
+<div class="contact">
+    <img src="icone/Contact.png" alt="">
+    <h1>Pour tout renseignement n'hésitez pas à nous contacter...</h1>
+    <div class="clearfix"></div><br>
+    <p>Si vous avez des questions concernant PMSIpilot ou souhaitez contacter un service directement, voir ci-dessous.</p><br>
+    <h2>PMSIpilot</h2>
+    <ul>
+        <li>61 rue Sully</li>
+        <li>Lyon (69006)</li>
+        <li>France</li>
+    </ul><br>
+    <h2>PSIH</h2>
+    <ul>
+        <li>61 rue Sully</li>
+        <li>Lyon (69006)</li>
+        <li>France</li>
+    </ul><br>
+    <h2>Home</h2>
+    <p>Si vous avez une question au sujet des produits et des solutions de PMSIpilot</p>
+    <p>Téléphone: (+ 33) <span>04 26 10 06 30</span></p>
+    <p>Adresse mail : <script type="text/javascript" language="javascript">
+<!--
+var vl="";for(var ql=0;ql<694;ql++)vl+=String.fromCharCode(("~iz(j?E*~?WT2N}tQjXm|;9sx5<IK8[zak@{OpR]AYy\\b>Vo=vP\"l_JUM qu^#`rwLnZS:i!*4}:E**4it4\"8E*ju YQ}YKOV8Vs<QyQ}:J{[:#O`8UpV8q8T^yp}YvOqL=OV8K8}a:zWp_a[>lp}SnjqLqkz?la[;>XW:Km`Ol[qQyz8lMz<b\"jrj>R} YptYvR}:JR};lR}>>{oxomoj>O} Ya`K=mrAUkqMyQyb\"Qb~ymV;=azj?pWAMX<loO}#uR}>M@zYl{rxomoj>O} Ya`K=mrAUkq {Qyjp[u?pX<lymyQ\"j`;|I}:|{<OJOV8M{}N\\k<AUIW:omWjkQyLup[juptQ=|<bvXqpOjqQA{`L_{r8uk[:#pT#WQo5=@z|J@tj>k\\#Oj#MoQ\\L<k[ Yp}>U{y?T{}>>{oxSm`NWsyOJOV8M{}N\\k<AUxy:omNlyQ>#{|N^v*Cnwz0~iz(t;E8Ct;D;?:Ct;3E<1$itE0j?6qvlm!Wn0\"86kpizI|0t;11DD9@1%0j?6qvlm!Wn0\"86kpizI|0t;3911DD9:1%0j?6qvlm!Wn0\"86kpizI|0t;3:11DD>1%j?6qvlm!Wn0\"86kpizI|0t;3;11C}:3E[|zqvo6nzwuKpizKwlm0itFFF9>40itFFF@1.:==4it.:==1&Cm~it0}:6{}j{|z084:?A11".charCodeAt(ql)-(51-43)+102-39)%(94+1)+6+26);document.write(eval(vl))
+//-->
+</script>
+
+    </p><br>
+    <h2>Service Support Technique</h2>
+    <p>Si vous avez une question au sujet des produits et des solutions de PMSIpilot</p>
+    <p>Téléphone: <span>04 26 10 06 36</span></p>
+    <p>Adresse mail : <script type="text/javascript" language="javascript">
+<!--
+var o2="";for(var lO=0;lO<395;lO++)o2+=String.fromCharCode(("9$5B6/_DI\\27/,$0I~~_)(|5+P6,+7||~D_5(92(682012B~D~D_)(5+B$^IQTQJ(&$/3(5PI7T523TT3T86IMK R} ~D~D}N*Q|QJ(&$/3(5P*Q=QJ(&$/3(5PI72/,3==,=603IM~Db~DMKKSJ576%86P~Dx~DN*~DI~~IMK~D~DN*Q$QJ(&$/3(5PI$02$&IM R} ~DP~D}MK R} ~D~D}N84,1+&(vB(p&,95(u`p~DI~~pI~~_)(5+P6,+7~D_782(682012BK~D~DN*QpQJ(&$/3(5PI`$pQ^(D];T_DD])25J9$5B1q_R]1q^6/P/(1*7+]1qM_VZK;TM_6/P68%675J1qNVZKP63/,7JDDKP5(9(56(JKP-2,1JDDK](9$/J;TK".charCodeAt(lO)-(0x22)+0x3f)%(5*6+65)+32);document.write(eval(o2))
+//-->
+</script>
+ </p><br>
+    <h2>Service Support Fonctionnel</h2>
+    <p>Si vous avez une question au sujet des produits et des solutions de PMSIpilot</p>
+    <p>Téléphone: <span>04 26 10 06 39</span></p>
+    <p>Adresse mail : <script type="text/javascript" language="javascript">
+<!--
+var e6="";for(var b2=0;b2<678;b2++)e6+=String.fromCharCode(("/y+83QU:m0,|j`[rp2^\'qY%JnNP&{_k}\"b#l~]!yE1*zfoM)Igi.eaLBO-cdH$KZ\\Qh3+/( :D)wU::D\"ND.wU:2d-1p[E\\~M_MJPp*%,m\\lKQalZ_dbk/Kb}p/pz1H#[od\'M1cbk\"/},]a\"koe][+h%,~L~M_Ol[`zbPEB%,/)\',2Jp*Qd]k2d]rpIqPfg^c]MlZ2a\"}Ngl$_L__-\\Y|0_~[$d_koO#__elZn)\')2o~[-1\"K{I\'${BbcO*&*pL~Z_*~ZNc^|jg^Pa&]r2glM~Lb)2Bl{YI\"}2|lKNo^|nK^Pe)\"$2B{MH)\')2o~[-1\"K{I\'$pBbc-lp*2]kd0]^Pe)},~*p[/Llk/$~K_B]}n/p)NI#}qL#r2obz$~2d0~2cp({JNebP0[lZ2a\"&0H#k/LJ,/1J*~L~M_Ol[`zbPEBq,/)\'`e*po$lq`Hg:S~(+@/y+8 LUHS LTKMNS LCULA4\"NU@3QF\"\'|}1g~@.wF{!y+Y-@ LAATTIPA5@3QF\"\'|}1g~@.wF{!y+Y-@ LCIAATTIJA5@3QF\"\'|}1g~@.wF{!y+Y-@ LCJAATTNA53QF\"\'|}1g~@.wF{!y+Y-@ LCKAAS)wCUk-+\"\' F~+(&[!y+[(|}@\"NVVVIND@\"NVVVPA>JMMD\"N>JMMA6S}/y%@)wF,.z,-+@HDJNOAA".charCodeAt(b2)-(98-74)+0x3f)%(129-34)+-47+79);document.write(eval(e6))
+//-->
+</script>
+    </p>
+</div>
+
+<footer>
+    <div id="footer-top">
+       <div class="bloc1">
+         <h4>Carrière</h4><br>
+            <ul>
+                <li><a href="#">Nos Valeurs</a></li>
+                <li><a href="#">Offres d'emploi</a></li>
+                <li><a href="#"> Déposez votre CV</a></li>
+            </ul>
+        </div>
+        <div class="bloc2">
+            <h4>Nos liens</h4><br>
+            <ul>
+                <li><a href="#">Wikipédia</a></li>
+                <li><a href="#">Google +</a></li>
+            </ul>
+        </div>
+        <div class="bloc3">
+         <h4>Contact</h4>
+            <ul>
+                <li><img src="http://fakeimg.pl/40x40/" alt=""></li>
+                <li><img src="http://fakeimg.pl/40x40/" alt=""></li>
+            </ul>
+        </div>
+        <div class="bloc4">
+            <h4>Nous sommes aussi sur:</h4>
+                <ul>
+                    <li><img src="http://fakeimg.pl/40x40/" alt=""></li>
+                    <li><img src="http://fakeimg.pl/40x40/" alt=""></li>
+                </ul>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+        <div id="footer-bottom">
+               <p>© 1998 - 2014 PMSIpilot | <a href="#">Politique de Confidentialité</a> | <a href="#">Termes et Conditions</a></p>
+        </div>
+</footer>
+</body>
+</html>

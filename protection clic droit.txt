@@ -1,0 +1,45 @@
+http://www.blog-nouvelles-technologies.fr/archives/772/proteger-la-copie-du-contenu-de-votre-site-web-blog/
+
+[sourcecode language="javascript"]
+//Source : http://hypergurl.com
+var popup=&quot; Le clic droit est désactivé. Copyright ©2010&quot;;
+function noway(go) {
+if (document.all) {
+if (event.button == 2) {
+alert(popup);
+return false;
+}
+}
+if (document.layers) {
+if (go.which == 3) {
+alert(popup);
+return false;
+}
+}
+}
+if (document.layers) {
+document.captureEvents(Event.MOUSEDOWN);
+}
+document.onmousedown=noway;
+[/sourcecode]
+
+
+
+
+
+Permet d'éviter qu'on utilise une de nos images sur un autre site en bouffant de la bande passante.
+
+[sourcecode language="bash"]
+RewriteEngine On
+RewriteCond %{HTTP_REFERER} !^http://(.+\.)?mysite\.com/ [NC]
+RewriteCond %{HTTP_REFERER} !^$
+RewriteRule .*\.(jpe?g|gif|bmp|png)$ http://img249.imageshack.us/img249/2806/hotlink.gif [L]
+[/sourcecode]
+
+
+Permet de rendre la typo responsive.
+
+causeRepaintsOn = $("h1, h2, h3, p");
+ $(window).resize(function() {
+ ?? causeRepaintsOn.css("z-index", 1);
+ }); - See more at: http://beta.rdsign.net/article_113#sthash.0FOfe70P.dpuf
